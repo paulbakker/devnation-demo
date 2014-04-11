@@ -1,0 +1,31 @@
+-buildpath:  \
+	org.amdatu.bndtools.test,\
+	org.apache.felix.dependencymanager,\
+	osgi.core,\
+	osgi.cmpn,\
+	webshop.products.api;version=latest,\
+	biz.aQute.junit
+-runbundles:  \
+	org.apache.felix.dependencymanager,\
+	org.apache.felix.dependencymanager.runtime,\
+	org.apache.felix.configadmin,\
+	org.apache.felix.metatype,\
+	org.apache.felix.log,\
+	org.apache.felix.eventadmin,\
+	org.amdatu.bndtools.test,\
+	webshop.products.api;version=latest,\
+	webshop.products.mongo;version=latest,\
+	org.mongodb.mongo-java-driver,\
+	org.amdatu.mongo,\
+	com.fasterxml.jackson.core.jackson-core,\
+	com.fasterxml.jackson.core.jackson-databind,\
+	com.fasterxml.jackson.core.jackson-annotations,\
+	de.undercouch.bson4jackson,\
+	org.mongojack,\
+	javax.persistence,\
+	junit.osgi
+Test-Cases: ${classes;CONCRETE;EXTENDS;junit.framework.TestCase}
+-runfw:org.apache.felix.framework;version='[4.2.1,4.2.1]'
+-runee:JavaSE-1.7
+Private-Package: \
+	webshop.api.test

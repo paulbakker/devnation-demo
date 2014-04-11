@@ -1,0 +1,5 @@
+Bundle-Version: 0.0.0.${tstamp}
+-includeresource: static=static
+-includeresource: static=static
+X-Web-Resource-Version: 1.1
+X-Web-Resource: /ui;static

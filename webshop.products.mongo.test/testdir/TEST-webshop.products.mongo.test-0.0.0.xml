@@ -1,0 +1,97 @@
+
+<testsuite name='test.webshop.products.mongo.test' tests='2' time='0.623' failures='0' skipped='0' target='reference:file:/Users/paul/tmp/demo1/webshop.products.mongo.test/generated/webshop.products.mongo.test.jar' timestamp='2014-04-11T15:20:44' hostname='pauls-mbp-3.fritz.box' framework='org.apache.felix.framework [0]' errors='0' framework-version='4.2.1'>
+  <properties>
+    <property name='launch.activators' value=''/>
+    <property name='java.runtime.name' value='Java(TM) SE Runtime Environment'/>
+    <property name='launch.embedded' value='false'/>
+    <property name='sun.boot.library.path' value='/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib'/>
+    <property name='java.vm.version' value='25.0-b70'/>
+    <property name='user.country.format' value='NL'/>
+    <property name='gopherProxySet' value='false'/>
+    <property name='java.vm.vendor' value='Oracle Corporation'/>
+    <property name='java.vendor.url' value='http://java.oracle.com/'/>
+    <property name='path.separator' value=':'/>
+    <property name='java.vm.name' value='Java HotSpot(TM) 64-Bit Server VM'/>
+    <property name='file.encoding.pkg' value='sun.io'/>
+    <property name='launch.timeout' value='0'/>
+    <property name='user.country' value='US'/>
+    <property name='sun.java.launcher' value='SUN_STANDARD'/>
+    <property name='sun.os.patch.level' value='unknown'/>
+    <property name='launch.keep' value='false'/>
+    <property name='java.vm.specification.name' value='Java Virtual Machine Specification'/>
+    <property name='user.dir' value='/Users/paul/tmp/demo1/webshop.products.mongo.test'/>
+    <property name='launch.bundles' value='/Users/paul/.bnd/cache/http%3A%2F%2Frepository.amdatu.org%2Fdependencies%2Forg.apache.felix.dependencymanager/org.apache.felix.dependencymanager-3.1.0.jar,/Users/paul/.bnd/cache/http%3A%2F%2Frepository.amdatu.org%2Fdependencies%2Forg.apache.felix.dependencymanager.runtime/org.apache.felix.dependencymanager.runtime-3.1.0.jar,/Users/paul/.bnd/cache/http%3A%2F%2Frepository.amdatu.org%2Fdependencies%2Forg.apache.felix.configadmin/org.apache.felix.configadmin-1.8.0.jar,/Users/paul/.bnd/cache/http%3A%2F%2Frepository.amdatu.org%2Fdependencies%2Forg.apache.felix.metatype/org.apache.felix.metatype-1.0.6.jar,/Users/paul/.bnd/cache/http%3A%2F%2Frepository.amdatu.org%2Fdependencies%2Forg.apache.felix.log/org.apache.felix.log-1.0.1.jar,/Users/paul/.bnd/cache/http%3A%2F%2Frepository.amdatu.org%2Fdependencies%2Forg.apache.felix.eventadmin/org.apache.felix.eventadmin-1.3.2.jar,/Users/paul/.bnd/cache/http%3A%2F%2Frepository.amdatu.org%2Fsnapshot%2Forg.amdatu.bndtools.test/org.amdatu.bndtools.test-1.0.0.jar,/Users/paul/tmp/demo1/webshop.products/generated/webshop.products.api.jar,/Users/paul/tmp/demo1/webshop.products.mongo/generated/webshop.products.mongo.jar,/Users/paul/.bnd/cache/http%3A%2F%2Frepository.amdatu.org%2Fdependencies%2Forg.mongodb.mongo-java-driver/org.mongodb.mongo-java-driver-2.11.3.jar,/Users/paul/.bnd/cache/http%3A%2F%2Frepository.amdatu.org%2Fsnapshot%2Forg.amdatu.mongo/org.amdatu.mongo-1.1.1.jar,/Users/paul/.bnd/cache/http%3A%2F%2Frepository.amdatu.org%2Fdependencies%2Fcom.fasterxml.jackson.core.jackson-core/com.fasterxml.jackson.core.jackson-core-2.3.1.jar,/Users/paul/.bnd/cache/http%3A%2F%2Frepository.amdatu.org%2Fdependencies%2Fcom.fasterxml.jackson.core.jackson-databind/com.fasterxml.jackson.core.jackson-databind-2.3.1.jar,/Users/paul/.bnd/cache/http%3A%2F%2Frepository.amdatu.org%2Fdependencies%2Fcom.fasterxml.jackson.core.jackson-annotations/com.fasterxml.jackson.core.jackson-annotations-2.3.0.jar,/Users/paul/.bnd/cache/http%3A%2F%2Frepository.amdatu.org%2Fdependencies%2Fde.undercouch.bson4jackson/de.undercouch.bson4jackson-2.3.1.jar,/Users/paul/.bnd/cache/http%3A%2F%2Frepository.amdatu.org%2Fdependencies%2Forg.mongojack/org.mongojack-2.1.0.jar,/Users/paul/.bnd/cache/http%3A%2F%2Frepository.amdatu.org%2Fdependencies%2Fjavax.persistence/javax.persistence-2.0.3.jar,/Users/paul/tmp/demo1/cnf/buildrepo/biz.aQute.junit/biz.aQute.junit-latest.jar,/Users/paul/tmp/demo1/webshop.products.mongo.test/generated/webshop.products.mongo.test.jar'/>
+    <property name='java.runtime.version' value='1.8.0-b132'/>
+    <property name='java.awt.graphicsenv' value='sun.awt.CGraphicsEnvironment'/>
+    <property name='java.endorsed.dirs' value='/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/endorsed'/>
+    <property name='os.arch' value='x86_64'/>
+    <property name='java.io.tmpdir' value='/var/folders/h5/006c0qbd0vl1bsgk9n0j08yr0000gn/T/'/>
+    <property name='line.separator' value='
+'/>
+    <property name='java.vm.specification.vendor' value='Oracle Corporation'/>
+    <property name='os.name' value='Mac OS X'/>
+    <property name='launch.name' value='webshop.products.mongo.test'/>
+    <property name='sun.jnu.encoding' value='UTF-8'/>
+    <property name='java.library.path' value='/Users/paul/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.'/>
+    <property name='launcher.properties' value='/Users/paul/tmp/demo1/webshop.products.mongo.test/generated/launch1945245465861103687.properties'/>
+    <property name='java.specification.name' value='Java Platform API Specification'/>
+    <property name='java.class.version' value='52.0'/>
+    <property name='launch.storage.dir' value='/Users/paul/tmp/demo1/webshop.products.mongo.test/generated/fw'/>
+    <property name='sun.management.compiler' value='HotSpot 64-Bit Tiered Compilers'/>
+    <property name='os.version' value='10.9.2'/>
+    <property name='http.nonProxyHosts' value='local|*.local|169.254/16|*.169.254/16'/>
+    <property name='user.home' value='/Users/paul'/>
+    <property name='user.timezone' value='Europe/Amsterdam'/>
+    <property name='java.awt.printerjob' value='sun.lwawt.macosx.CPrinterJob'/>
+    <property name='file.encoding' value='UTF-8'/>
+    <property name='java.specification.version' value='1.8'/>
+    <property name='java.class.path' value='/Users/paul/.bnd/cache/http%3A%2F%2Frepository.amdatu.org%2Fdependencies%2Forg.apache.felix.framework/org.apache.felix.framework-4.2.1.jar:/Users/paul/tmp/demo1/cnf/buildrepo/biz.aQute.launcher/biz.aQute.launcher-latest.jar'/>
+    <property name='user.name' value='paul'/>
+    <property name='java.vm.specification.version' value='1.8'/>
+    <property name='sun.java.command' value='aQute.launcher.Launcher'/>
+    <property name='java.home' value='/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre'/>
+    <property name='sun.arch.data.model' value='64'/>
+    <property name='user.language' value='en'/>
+    <property name='java.specification.vendor' value='Oracle Corporation'/>
+    <property name='awt.toolkit' value='sun.lwawt.macosx.LWCToolkit'/>
+    <property name='java.vm.info' value='mixed mode'/>
+    <property name='launch.services' value='true'/>
+    <property name='launch.noreferences' value='false'/>
+    <property name='java.version' value='1.8.0'/>
+    <property name='java.ext.dirs' value='/Users/paul/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java'/>
+    <property name='sun.boot.class.path' value='/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/classes'/>
+    <property name='java.vendor' value='Oracle Corporation'/>
+    <property name='file.separator' value='/'/>
+    <property name='java.vendor.url.bug' value='http://bugreport.sun.com/bugreport/'/>
+    <property name='sun.io.unicode.encoding' value='UnicodeBig'/>
+    <property name='sun.cpu.endian' value='little'/>
+    <property name='launch.trace' value='false'/>
+    <property name='socksNonProxyHosts' value='local|*.local|169.254/16|*.169.254/16'/>
+    <property name='launch.system.packages' value='org.osgi.framework.startlevel;uses:="org.osgi.framework";version="1.0",org.osgi.framework.wiring;uses:="org.osgi.resource,org.osgi.framework";version="1.1",org.osgi.framework.hooks.bundle;uses:="org.osgi.framework";version="1.1",org.osgi.framework.hooks.service;uses:="org.osgi.framework";version="1.1",org.osgi.framework.hooks.resolver;uses:="org.osgi.framework.wiring";version="1.0",org.osgi.framework.namespace;uses:="org.osgi.resource";version="1.0",org.osgi.framework.launch;uses:="org.osgi.framework";version="1.1",org.osgi.framework;version="1.7",org.osgi.framework.hooks.weaving;uses:="org.osgi.framework.wiring";version="1.0",org.osgi.resource;version="1.0",org.osgi.service.url;version="1.0",org.osgi.service.packageadmin;uses:="org.osgi.framework";version="1.2",org.osgi.service.startlevel;uses:="org.osgi.framework";version="1.1",org.osgi.util.tracker;uses:="org.osgi.framework";version="1.5.1"'/>
+    <property name='ftp.nonProxyHosts' value='local|*.local|169.254/16|*.169.254/16'/>
+    <property name='sun.cpu.isalist' value=''/>
+  </properties>
+  <bundles>
+    <bundle version='4.2.1' location='System Bundle' bsn='org.apache.felix.framework' modified='1970-01-01T01:00:00' state='32' id='0'/>
+    <bundle version='3.1.0' location='reference:file:/Users/paul/.bnd/cache/http%253A%252F%252Frepository.amdatu.org%252Fdependencies%252Forg.apache.felix.dependencymanager/org.apache.felix.dependencymanager-3.1.0.jar' bsn='org.apache.felix.dependencymanager' modified='2014-04-11T15:20:43' state='32' id='1'/>
+    <bundle version='3.1.0' location='reference:file:/Users/paul/.bnd/cache/http%253A%252F%252Frepository.amdatu.org%252Fdependencies%252Forg.apache.felix.dependencymanager.runtime/org.apache.felix.dependencymanager.runtime-3.1.0.jar' bsn='org.apache.felix.dependencymanager.runtime' modified='2014-04-11T15:20:43' state='32' id='2'/>
+    <bundle version='1.8.0' location='reference:file:/Users/paul/.bnd/cache/http%253A%252F%252Frepository.amdatu.org%252Fdependencies%252Forg.apache.felix.configadmin/org.apache.felix.configadmin-1.8.0.jar' bsn='org.apache.felix.configadmin' modified='2014-04-11T15:20:43' state='32' id='3'/>
+    <bundle version='1.0.6' location='reference:file:/Users/paul/.bnd/cache/http%253A%252F%252Frepository.amdatu.org%252Fdependencies%252Forg.apache.felix.metatype/org.apache.felix.metatype-1.0.6.jar' bsn='org.apache.felix.metatype' modified='2014-04-11T15:20:43' state='32' id='4'/>
+    <bundle version='1.0.1' location='reference:file:/Users/paul/.bnd/cache/http%253A%252F%252Frepository.amdatu.org%252Fdependencies%252Forg.apache.felix.log/org.apache.felix.log-1.0.1.jar' bsn='org.apache.felix.log' modified='2014-04-11T15:20:43' state='32' id='5'/>
+    <bundle version='1.3.2' location='reference:file:/Users/paul/.bnd/cache/http%253A%252F%252Frepository.amdatu.org%252Fdependencies%252Forg.apache.felix.eventadmin/org.apache.felix.eventadmin-1.3.2.jar' bsn='org.apache.felix.eventadmin' modified='2014-04-11T15:20:43' state='32' id='6'/>
+    <bundle version='1.0.0' location='reference:file:/Users/paul/.bnd/cache/http%253A%252F%252Frepository.amdatu.org%252Fsnapshot%252Forg.amdatu.bndtools.test/org.amdatu.bndtools.test-1.0.0.jar' bsn='org.amdatu.bndtools.test' modified='2014-04-11T15:20:43' state='32' id='7'/>
+    <bundle version='0.0.0' location='reference:file:/Users/paul/tmp/demo1/webshop.products/generated/webshop.products.api.jar' bsn='webshop.products.api' modified='2014-04-11T15:20:43' state='32' id='8'/>
+    <bundle version='0.0.0.201404111312' location='reference:file:/Users/paul/tmp/demo1/webshop.products.mongo/generated/webshop.products.mongo.jar' bsn='webshop.products.mongo' modified='2014-04-11T15:20:43' state='32' id='9'/>
+    <bundle version='2.11.3.RELEASE' location='reference:file:/Users/paul/.bnd/cache/http%253A%252F%252Frepository.amdatu.org%252Fdependencies%252Forg.mongodb.mongo-java-driver/org.mongodb.mongo-java-driver-2.11.3.jar' bsn='org.mongodb.mongo-java-driver' modified='2014-04-11T15:20:43' state='32' id='10'/>
+    <bundle version='1.1.1' location='reference:file:/Users/paul/.bnd/cache/http%253A%252F%252Frepository.amdatu.org%252Fsnapshot%252Forg.amdatu.mongo/org.amdatu.mongo-1.1.1.jar' bsn='org.amdatu.mongo' modified='2014-04-11T15:20:43' state='32' id='11'/>
+    <bundle version='2.3.1' location='reference:file:/Users/paul/.bnd/cache/http%253A%252F%252Frepository.amdatu.org%252Fdependencies%252Fcom.fasterxml.jackson.core.jackson-core/com.fasterxml.jackson.core.jackson-core-2.3.1.jar' bsn='com.fasterxml.jackson.core.jackson-core' modified='2014-04-11T15:20:43' state='32' id='12'/>
+    <bundle version='2.3.1' location='reference:file:/Users/paul/.bnd/cache/http%253A%252F%252Frepository.amdatu.org%252Fdependencies%252Fcom.fasterxml.jackson.core.jackson-databind/com.fasterxml.jackson.core.jackson-databind-2.3.1.jar' bsn='com.fasterxml.jackson.core.jackson-databind' modified='2014-04-11T15:20:43' state='32' id='13'/>
+    <bundle version='2.3.0' location='reference:file:/Users/paul/.bnd/cache/http%253A%252F%252Frepository.amdatu.org%252Fdependencies%252Fcom.fasterxml.jackson.core.jackson-annotations/com.fasterxml.jackson.core.jackson-annotations-2.3.0.jar' bsn='com.fasterxml.jackson.core.jackson-annotations' modified='2014-04-11T15:20:43' state='32' id='14'/>
+    <bundle version='2.3.1' location='reference:file:/Users/paul/.bnd/cache/http%253A%252F%252Frepository.amdatu.org%252Fdependencies%252Fde.undercouch.bson4jackson/de.undercouch.bson4jackson-2.3.1.jar' bsn='de.undercouch.bson4jackson' modified='2014-04-11T15:20:43' state='32' id='15'/>
+    <bundle version='2.1.0.SNAPSHOT' location='reference:file:/Users/paul/.bnd/cache/http%253A%252F%252Frepository.amdatu.org%252Fdependencies%252Forg.mongojack/org.mongojack-2.1.0.jar' bsn='org.mongojack' modified='2014-04-11T15:20:43' state='32' id='16'/>
+    <bundle version='2.0.3.v201010191057' location='reference:file:/Users/paul/.bnd/cache/http%253A%252F%252Frepository.amdatu.org%252Fdependencies%252Fjavax.persistence/javax.persistence-2.0.3.jar' bsn='javax.persistence' modified='2014-04-11T15:20:43' state='32' id='17'/>
+    <bundle version='1.2.0.20140325-194349' location='reference:file:/Users/paul/tmp/demo1/cnf/buildrepo/biz.aQute.junit/biz.aQute.junit-latest.jar' bsn='biz.aQute.junit' modified='2014-04-11T15:20:43' state='32' id='18'/>
+    <bundle version='0.0.0' location='reference:file:/Users/paul/tmp/demo1/webshop.products.mongo.test/generated/webshop.products.mongo.test.jar' bsn='webshop.products.mongo.test' modified='2014-04-11T15:20:43' state='32' target='true' id='19'/>
+  </bundles>
+  <testcase name='testList' time='0.559' classname='webshop.api.test.ProductServiceTest'/>
+</testsuite>
